@@ -1,3 +1,23 @@
+/* For medium devices styles responsive */
+
+@media screen and (max-width: 800px) {
+    
+    .grid-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    
+}
+@media screen and (max-width: 700px) {
+    
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+}
+
+
 /* for mobile devices responsive styles */
 
 @media screen and (max-width: 400px) {
@@ -29,6 +49,9 @@
 
     /* nav responsive design ends */
 
+
+    /* banner section styles starts here */
+
     .banner-container{
     
        flex-direction: column;
@@ -50,6 +73,24 @@
         font-size: 30px;
       }
 
+
+       /* banner section styles ends here */
+
+
+       /* products section styles starts here */
+
+       .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+    /* products section styles ends here */
+
+
+
+
 }
 
 
@@ -58,7 +99,7 @@
 
 
 
-/* for medium devices or tablet responsive styles */
+
 
 
 
